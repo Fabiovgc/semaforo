@@ -4,6 +4,13 @@
     box-sizing:border-box;
 }
 
+.street {
+    background-image: url('./img/OIP.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+}
+
 main {
     display:flex;
     height: 100hv;
@@ -54,24 +61,28 @@ main {
 #red:hover{
     width: 150px;
     height: 40px;
-    background-color: #f70101;
+    background-color:#ffc1c1;
+    border:1px solid #f70101;
     border-radius: 5px;
 }
 #yellow:hover{
     width: 150px;
     height: 40px;
-    background-color: #fffb06;
+    background-color:#fffec8;
+    border:1px solid #fffb06;
     border-radius: 5px;
 }
 #green:hover{
     width: 150px;
     height: 40px;
-    background-color: #48ff00;
+    background-color: #c0f7aa;
+    border:1px solid #48ff00;
     border-radius: 5px;
 }
 #automatic:hover{
     width: 150px;
     height: 40px;
-    background-color: #369eff;
+    background-color:#bddfff;
+     border: 1px solid #369eff;
     border-radius: 5px;
 }
