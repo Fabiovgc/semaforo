@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main {
+    display:flex;
+    height: 100hv;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+}
+
+#red{
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #ff4a4a;
+    border: none;
+    border-radius: 5px;
+}
+#yellow{
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #fff56a;
+    border: none;
+    border-radius: 5px;
+}
+#green{
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #93f56d;
+    border: none;
+    border-radius: 5px;
+}
+#automatic{
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #8dc2f3;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#red:hover{
+    width: 150px;
+    height: 40px;
+    background-color: #f70101;
+    border-radius: 5px;
+}
+#yellow:hover{
+    width: 150px;
+    height: 40px;
+    background-color: #fffb06;
+    border-radius: 5px;
+}
+#green:hover{
+    width: 150px;
+    height: 40px;
+    background-color: #48ff00;
+    border-radius: 5px;
+}
+#automatic:hover{
+    width: 150px;
+    height: 40px;
+    background-color: #369eff;
+    border-radius: 5px;
+}
